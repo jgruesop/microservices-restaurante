@@ -1,4 +1,4 @@
-package com.restaurant.clienteservice.model;
+package com.restaurant.clienteservice.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

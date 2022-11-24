@@ -1,9 +1,8 @@
 package com.restaurant.reservaservice.service;
 
-import com.restaurant.reservaservice.entity.Reserva;
+import com.restaurant.reservaservice.model.entity.Reserva;
 import com.restaurant.reservaservice.repository.ReservaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

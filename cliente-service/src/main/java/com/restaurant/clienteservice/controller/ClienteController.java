@@ -1,8 +1,8 @@
 package com.restaurant.clienteservice.controller;
 
-import com.restaurant.clienteservice.entity.Cliente;
-import com.restaurant.clienteservice.model.Reserva;
-import com.restaurant.clienteservice.model.Rol;
+import com.restaurant.clienteservice.model.entity.Cliente;
+import com.restaurant.clienteservice.model.entity.Reserva;
+import com.restaurant.clienteservice.model.entity.Rol;
 import com.restaurant.clienteservice.service.IClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
 package com.restaurant.reservaservice.controller;
 
-import com.restaurant.reservaservice.entity.Reserva;
+import com.restaurant.reservaservice.model.entity.Reserva;
 import com.restaurant.reservaservice.service.IReservaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,10 +1,9 @@
 package com.restaurant.clienteservice.service;
 
-import com.restaurant.clienteservice.entity.Cliente;
-import com.restaurant.clienteservice.model.Reserva;
-import com.restaurant.clienteservice.model.Rol;
+import com.restaurant.clienteservice.model.entity.Cliente;
+import com.restaurant.clienteservice.model.entity.Reserva;
+import com.restaurant.clienteservice.model.entity.Rol;
 
-import java.util.ArrayList;
 import java.util.List;
 public interface IClienteService {
 
