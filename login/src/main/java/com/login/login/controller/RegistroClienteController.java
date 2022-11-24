@@ -29,7 +29,7 @@ public class RegistroClienteController {
     @PostMapping
     public String registrarCliente(@ModelAttribute("cliente") ClienteRegistroDTO clienteRegistroDTO) {
         clienteService.registrar(clienteRegistroDTO);
-        return "redirect:/registro?ok";
+        return "redirect:/api/registro?ok";
     }
 
 }
