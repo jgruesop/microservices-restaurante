@@ -53,7 +53,7 @@ public class SecurityConfig {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/inicio")
+                .loginPage("/api/inicio")
                 .permitAll()
                 .and()
                 .logout()

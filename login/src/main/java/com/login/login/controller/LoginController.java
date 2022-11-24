@@ -13,7 +13,7 @@ public class LoginController {
         return "login";
     }
 
-    @GetMapping("/")
+    @GetMapping("/index")
     public String paginaAcceso() {
         return "index";
     }
